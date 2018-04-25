@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Quiz</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Javascript Quiz</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="main"><!-- open main div -->
+<div id="header"><!-- open header div -->
+<h1></h1>
+</div><!-- close header div -->
+
+
+<form id="form1">
+        <fieldset>
+                <h2>Inside which HTML element do we put the JavaScript?</h2>
+                    <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />&lt; js &gt; </label>
+                    <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />&lt; javascript &gt;</label>
+                    <label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />&lt; script &gt;</label>
+                    <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>&lt; scripting &gt;</label>
+
+                <h2>Where is the correct place to insert a JavaScript?</h2>
+                    <label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>The &lt; body &gt; section</label>
+                    <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>The &lt; head &gt; section</label>
+                    <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Both the &lt; head &gt; section and the &lt; body &gt; section are correct</label>
+
+                <h2>What is the correct syntax for referring to an external script called "xxx.js"?</h2>
+                    <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />&lt; script name="xxx.js"&gt;</label>
+                    <label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />&lt; script src="xxx.js"&gt;</label>
+                    <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />&lt; script href="xxx.js"&gt;</label>
+
+                <h2>The external JavaScript file must contain the &lt; script &gt; tag.</h2>
+                    <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />True </label>
+                    <label for="if_join"><input type="radio" name="ifstate" value="25" id="if_join" />False </label>
+
+                <h2>How do you write "Hello World" in an alert box?</h2>
+                    <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />msg("Hello World");</label>
+                    <label for="var_join"><input type="radio" name="variable" value="25" id="var_join" />alert("Hello World");</label>
+                    <label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />alertBox("Hello World");</label>
+                    <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>msgBox("Hello World");</label>
+
+                <h2>How do you call a function named "myFunction"?</h2>
+                    <label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>call myFunction()</label>
+                    <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>call function myFunction()</label>
+                    <label for="sub_info"><input type="radio" name="sub" value="25" id="sub_info" />myFunction()</label>
+
+                <h2>How can you add a comment in a JavaScript?</h2>
+                    <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />&lt; !--This is a comment--&gt; </label>
+                    <label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />//This is a comment </label>
+                    <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />'This is a comment</label>
+
+                <h2>What is the correct way to write a JavaScript array?</h2>
+                    <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" /> var colors = (1:"red", 2:"green", 3:"blue") </label>
+                    <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" /> var colors = "red", "green", "blue" </label>
+                    <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" /> var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue") </label>
+                    <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" /> var colors = ["red", "green", "blue"] </label>
+
+                <h2>Which event occurs when the user clicks on an HTML element?</h2>
+                    <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" /> onmouseover </label>
+                    <label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" /> onmouseclick </label>
+                    <label for="cat_info"><input type="radio" name="con" value="25" id="cat_info" /> onclick </label>
+
+                <h2>JavaScript is the same as Java.</h2>
+                    <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" /> Yes </label>
+                    <label for="if_join"><input type="radio" name="ifstate" value="25" id="if_join" /> No </label>
+
+        <button type="submit" value="Submit">Submit</button>
+        </fieldset>
+</form>
+
+    
+    
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+</div><!-- close main div -->
+<script src="main.js"></script>    
+    
+</body>
+
+</html>
